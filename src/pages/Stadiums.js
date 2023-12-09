@@ -2,7 +2,7 @@ import Header from "../components/Header";
 
 
 
-function Home(){
+function Stadiums(){
     return(
         <div>
             <Header/>
@@ -12,4 +12,4 @@ function Home(){
 
 
 
-export default Home;
+export default Stadiums;
