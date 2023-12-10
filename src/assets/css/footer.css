@@ -1,0 +1,53 @@
+
+
+.footer {
+    background-color: #21434C;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer p {
+    font-family: 'Qatar2022 Arabic';
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.iconcon {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 200px;
+}
+
+.iconeres {
+    color: #21434C !important;
+    height: 20px;
+    width: auto;
+    
+}
+
+
+.divico {
+    background-color: white;
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+
+@media screen and (max-width:600px) {
+    .footer p {
+        font-size: 14px;
+        font-family: 'Graphik Arabic';
+    }
+}
