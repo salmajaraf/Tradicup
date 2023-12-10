@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Accueil from "../components/Accueil";
+import Contact from "../components/Contact";
 
 
 
@@ -8,6 +9,7 @@ function Home(){
         <div>
             <Header/>
             <Accueil/>
+            <Contact/>
         </div>
     );
 }

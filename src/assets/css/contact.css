@@ -1,0 +1,130 @@
+.ticlair {
+    font-size: 50px;
+    font-family: 'Qatar2022 Arabic';
+    color: #21434C ;
+    text-align: center;
+    margin-bottom: 80px;
+    padding-top: 60px;
+}
+
+.contact .information{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+.contact{
+    background-color: #CDD1D4;
+    height: auto;
+}
+
+.imgcontact img {
+    height: 400px;
+    width: auto;
+}
+
+
+.formu{
+    background-color: #21434C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 500px;
+    width: 350px;
+    border-radius: 15px;
+    
+}
+
+.formu p {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: 'Graphik Arabic';
+}
+
+input {
+    background-color: white;
+    outline: none !important;
+    border-radius: 10px;
+    color: #21434C;
+    border: none;
+    padding: 10px 15px;
+    margin: 15px;
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+    font-family: 'Montserrat';
+}
+
+input::placeholder,textarea::placeholder {
+    color: #21434C;
+    font-weight: 500;
+
+}
+
+input[type="submit"] {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    margin-bottom: 20px;
+}
+input[type="submit"]:hover {
+    background-color: white;
+    color: #21434C;
+    
+    font-weight: 600;
+}
+
+
+textarea {
+    border-radius: 10px;
+    width: 250px; 
+    height: 100px; 
+    resize: none; 
+    font-family: 'Montserrat';
+    padding: 10px; 
+    font-size: 16px; 
+    font-weight: 500;
+    outline: none; 
+    background-color: white; 
+    color: #21434C; 
+    overflow-y: auto; 
+    margin: 15px;
+}
+
+.retour {
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.fleche {
+    color: #21434C;
+    height: 40px;
+    width: auto;
+    margin-right: 50px;
+    
+}
+.mon {
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width:830px) {
+    .imgcontact{
+        display: none;
+    }
+    .retour{
+        justify-content: center;
+    }
+    .fleche {
+        margin: 0;
+    }
+}

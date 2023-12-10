@@ -134,7 +134,7 @@
         height: 60%;
         background-color: #21434C;
         left: 0;
-        border-bottom: 2px solid white;
+        /*border-bottom: 2px solid white;*/
         
         
     }
@@ -171,7 +171,7 @@
     }
     
     .hide-links ul {
-        transform: translateY(-84%);
+        transform: translateY(-100%);
         
     }
     
