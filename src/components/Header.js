@@ -11,7 +11,7 @@ function Header(){
         setShowLinks(!showLinks);
     }
     return(
-        <div className={`container `}>
+        <div className="container">
             <div className="icone">
                 <Link to="/"><img src={iconeheader} alt="iconetradicup.png"/></Link>
             </div>

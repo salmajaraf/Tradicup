@@ -130,15 +130,20 @@
         right: 0;
         position: fixed;
         top: 0;
+        
         height: 60%;
         background-color: #21434C;
         left: 0;
+        border-bottom: 2px solid white;
+        
+        
     }
 
     
 
     .hide-links ul{
-        visibility: hidden;
+        
+        display: none;
     }
     .show-links .burgermenu1{
         display: none;
@@ -166,7 +171,7 @@
     }
     
     .hide-links ul {
-        transform: translateY(-20%);
+        transform: translateY(-84%);
         
     }
     
