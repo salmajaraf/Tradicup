@@ -1,0 +1,52 @@
+/* about.css */
+.about-container {
+    font-family: 'Qatar2022 Arabic';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #CDD1D4;
+    padding: 20px;
+    position:relative;
+  }
+  
+  .news-section {
+    width: 60%;
+    position:relative;
+  }
+
+  .news-section h2{
+    margin-left: 190px;
+    margin-top: 40px;
+    font-size:xx-large;
+    color:#21434C ;
+  }
+  
+  .news-item {
+    margin-top: 50px;
+    margin-left: 90px;
+
+    position:relative;
+  }
+  
+  .news-item img {
+    border-radius: 10px 10px 0px 0px; /* Coins arrondis */
+    width: 50%;
+    max-width: 50%;
+    height: auto;
+  }
+  .news-item p {
+    background-color: #fff;
+    width: 50%;
+    padding-top: 10px;
+    padding-left: 10px;
+    line-height: 1.2;
+  }
+
+  .countdown-section {
+    width: 30%;
+  }
+  
+  .countdown-section h2 {
+    color: #fff; /* Couleur du texte blanc */
+  }
+  
