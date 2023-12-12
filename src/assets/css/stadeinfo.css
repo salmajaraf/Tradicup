@@ -158,6 +158,16 @@
     #stade{
         width: 350px !important;
     }
+
+    .metico {
+        
+        margin-left: 40px !important;
+    }
+    
+    .metcont {
+        margin-right: 40px !important;
+    
+    }
 }
 
 #voir {
@@ -262,7 +272,7 @@
 
 #stade .content .cont3{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 70px;
 }
@@ -271,4 +281,34 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.metico {
+    width: 50px;
+    height: auto;
+    color: #21434C;
+    margin-left: 60px;
+
+}
+
+.metcont {
+    margin-right: 60px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 25px;
+}
+
+.metcont h4{
+    font-size: 25px;
+    font-family: "Qatar2022 Arabic";
+    color: #21434C;
+}
+
+.metcont p{
+    font-size: 20px;
+    font-family: "Graphik Arabic";
+    color: #000000;
+    text-transform: capitalize;
 }

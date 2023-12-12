@@ -79,7 +79,7 @@ function Infostade(){
                         <p>Capacity : {jsonData.capacity}</p>
                     </div>
                     <div className="cont3">
-                        <Meteo/>
+                        <Meteo ville={jsonData.city}/>
                     </div>
                     <div className="cont4">
                         <iframe src={`${jsonData.localisation}`} width="95%" height="200" style={{border:"0px",margin:"5px",borderRadius:"10px"}} loading="lazy" title={jsonData.idStade}></iframe>
