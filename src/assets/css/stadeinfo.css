@@ -55,6 +55,7 @@
     font-family: 'Qatar2022 Arabic';
     color: #CDD1D4;
     margin-right: 50px;
+    cursor: pointer;
 }
 
 .stadegroup {
@@ -99,6 +100,7 @@
     font-family: 'Qatar2022 Arabic';
     color: #CDD1D4;
     margin-right: 50px;
+    cursor: pointer;
 }
 
 .stadegroup {
@@ -152,4 +154,121 @@
     .containerstadiums .card .cont {
         height: 60px;
     }
+
+    #stade{
+        width: 350px !important;
+    }
+}
+
+#voir {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#arrow {
+    transition: transform 0.3s ease;
+}
+
+
+.btnvoir {
+    background-color: #21434C;
+    font-size: 20px;
+    font-family: "Qatar2022 Arabic";
+    color: white;
+    padding: 7px;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.voiricone {
+    color: white;
+    height: 27px;
+    width: auto;
+}
+
+.btnsec {
+    height: 120px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+/*Pop Up*/
+
+/*POP UP*/
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 67, 76, 0.219);
+    z-index: 9; 
+    display: none;
+}
+#stade {
+    position: fixed;
+    z-index: 10;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 550px;
+    width: 400px;
+    display: none;
+}
+
+#stade .imgstade img {
+    width: 100%;
+    height: 190px;
+    border-radius: 10px 10px 0 0;
+}
+
+#stade .content .cont1 h3{
+    font-size: 30px;
+    font-family: "Qatar2022 Arabic";
+    color: #21434C;
+    padding-right: 45px;
+}
+
+#stade .content .cont1 .iconeclosestade{
+    height: 35px;
+    width: auto;
+    color: #21434C;
+    cursor: pointer;
+}
+
+#stade .content .cont2 p{
+    font-size: 16px;
+    font-family: "Graphik Arabic";
+    color: black;
+    padding-left: 60px;
+    margin-bottom: 10px;
+}
+#stade .content .cont1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+
+#stade .content .cont3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+#stade .content .cont4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

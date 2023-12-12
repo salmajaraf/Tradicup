@@ -10,6 +10,7 @@ function Home(){
         <div>
             <Header/>
             <Accueil/>
+            
             <Contact/>
             <Footer/>
         </div>
