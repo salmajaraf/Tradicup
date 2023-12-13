@@ -1,6 +1,17 @@
 /* Couleur Principale : #21434C */
 /* Couleur Secondaire : #CDD1D4 */
 
+@font-face {
+  font-family: "Graphik Arabic";
+  src: url(./fonts/Graphik\ Arabic\ Medium.otf);
+}
+
+@font-face {
+  font-family: "Qatar2022 Arabic";
+  src: url(./fonts/Qatar2022Arabic-Bold.ttf);
+}
+
+
 
 *{
   margin: 0;
