@@ -3,7 +3,7 @@
 .container {
     background-color: #21434C;
     border-bottom: 2px solid white;
-    height: 80px;
+    height: 70px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -14,7 +14,7 @@
 }
 
 .container .icone img{
-    height: 70px;
+    height: 60px;
     width: auto;
     
 }
@@ -24,7 +24,7 @@
 }
 
 .container .links {
-    
+    font-size: 15px;
     width: 900px;
     margin-right: 5%;
 }
@@ -42,20 +42,20 @@
     color: white;
     font-family: "Qatar2022 Arabic";
     text-decoration: none;
-    padding: 8px 15px;
-    border-radius: 27px;
+    padding: 5px 15px;
+    border-radius: 25px;
     transition: 0.2s ease-in-out;
 }
 
 .container .links .btn {
     color: white;
-    border-radius: 27px;
+    border-radius: 25px;
     border: 2px solid white;
 }
 
 .container .links .link:hover{
     color: #21434C;
-    border-radius: 27px;
+    border-radius: 25px;
     background-color: white;
 }
 
@@ -88,7 +88,7 @@
 .burgermenu1 {
     color: white;
     cursor: pointer;
-    height: 35px;
+    height: 30px;
     width: auto;
     
 }
@@ -100,7 +100,7 @@
 .closemenu{
     color: white;
     cursor: pointer;
-    height: 45px;
+    height: 40px;
     width: auto;
 }
 @media screen and (max-width: 820px){

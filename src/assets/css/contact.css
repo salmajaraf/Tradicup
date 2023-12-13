@@ -1,10 +1,10 @@
 .ticlair {
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'Qatar2022 Arabic';
     color: #21434C ;
     text-align: center;
-    margin-bottom: 80px;
-    padding-top: 60px;
+    margin-bottom: 70px;
+    padding-top: 50px;
 }
 
 .contact .information{
@@ -20,7 +20,7 @@
 }
 
 .imgcontact img {
-    height: 400px;
+    height: 350px;
     width: auto;
 }
 
@@ -31,10 +31,10 @@
     align-items: center;
     justify-content: center;
     
-    height: 500px;
-    width: 350px;
-    border-radius: 15px;
-    
+    height: 450px;
+    width: 320px;
+    border-radius: 12px;
+    margin-left: -300px;
 }
 
 .formu p {
@@ -42,7 +42,7 @@
     text-align: center;
     margin-bottom: 20px;
     margin-top: 25px;
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Graphik Arabic';
 }
 
@@ -53,10 +53,10 @@ input {
     color: #21434C;
     border: none;
     padding: 10px 15px;
-    margin: 15px;
-    width: 250px;
-    height: 40px;
-    font-size: 15px;
+    margin: 10px;
+    width: 220px;
+    height: 35px;
+    font-size: 13px;
     font-family: 'Montserrat';
 }
 
@@ -73,6 +73,7 @@ input[type="submit"] {
     cursor: pointer;
     transition: 0.2s ease-in-out;
     margin-bottom: 20px;
+    padding-bottom: 25px;
 }
 input[type="submit"]:hover {
     background-color: white;
@@ -84,18 +85,19 @@ input[type="submit"]:hover {
 
 textarea {
     border-radius: 10px;
-    width: 250px; 
+    width: 220px; 
     height: 100px; 
     resize: none; 
     font-family: 'Montserrat';
     padding: 10px; 
-    font-size: 16px; 
+    font-size: 13px; 
     font-weight: 500;
     outline: none; 
     background-color: white; 
     color: #21434C; 
     overflow-y: auto; 
-    margin: 15px;
+    margin: 10px;
+    border: none;
 }
 
 .retour {
@@ -108,7 +110,7 @@ textarea {
 
 .fleche {
     color: #21434C;
-    height: 40px;
+    height: 37px;
     width: auto;
     margin-right: 50px;
     
@@ -126,5 +128,11 @@ textarea {
     }
     .fleche {
         margin: 0;
+    }
+    .ticlair{
+        font-size: 35px;
+    }
+    .formu {
+        margin-left: -0px;
     }
 }

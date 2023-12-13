@@ -1,5 +1,7 @@
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Stadeinfo from "../components/Stadeinfo";
+import Infostade from "../components/Infostade";
 
 
 
@@ -8,7 +10,10 @@ function Stadiums(){
     return(
         <div>
             <Header/>
-            <Stadeinfo/>
+            <Infostade/>
+            
+            <Contact/>
+            <Footer/>
         </div>
     );
 }

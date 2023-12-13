@@ -12,7 +12,7 @@
 .footer p {
     font-family: 'Qatar2022 Arabic';
     color: white;
-    font-size: 18px;
+    font-size: 17px;
     margin-bottom: 30px;
 }
 
@@ -23,12 +23,12 @@
     align-items: center;
     justify-content: space-between;
     
-    width: 200px;
+    width: 170px;
 }
 
 .iconeres {
     color: #21434C !important;
-    height: 20px;
+    height: 17px;
     width: auto;
     
 }
