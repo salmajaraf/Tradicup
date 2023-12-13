@@ -13,7 +13,7 @@ import { RiMistFill } from "react-icons/ri";
 function Meteo(props) {
     const { ville } = props;
     /*const villeAsString = String(ville);*/
-    const apikey = "99fe5aaa88d1cdeccd365d48f5ec488d";
+    const apikey = "fd5b26b2c06c4417c84a45de8fb4e8fb";
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${ville}&units=Metric&appid=${apikey}`;
     const [meteo, setMeteo] = useState({});
     const [icone, setIcone] = useState(<FaCloud className="metico" />);
