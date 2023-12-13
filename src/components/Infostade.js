@@ -11,7 +11,7 @@ import Meteo from "./Meteo";
 
 function Infostade(){
     const [stadiums,setStadiums]=useState([]);
-    const [jsonData,setJsonData]=useState({});
+    const [jsonData,setJsonData]=useState({"idStade":12,"city":"Zenata","capacity":46000,"image":"https://www.bladi.net/img/jpg/stade-zenata-casablanca.jpg","localisation":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14203.314620260167!2d-7.54233000185729!3d33.61838480341541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7cc7a25c971b1%3A0xc97f27f3c9d5bd6d!2zU29jacOpdMOpIEfDqW7DqXJhbGUgWmVuYXRh!5e0!3m2!1sfr!2sma!4v1701775896655!5m2!1sfr!2sma"});
     useEffect(()=>{
         axios.get("https://world-cup2030-api.onrender.com/stadiums").then(
             (res)=>{
@@ -94,7 +94,7 @@ function Infostade(){
                 if([1,2,3].includes(stadium.idStade)){
                     if(stadium.idStade === 1){
                         return(
-                            <>
+                            <div key={100} style={{display:"flex",justifyContent:"center",flexDirection:"column",alignItems:"center"}}>
                             <div className='card' key={stadium.idStade}>
                                 <div className='imgcard'>
                                     <img src={stadium.image} alt="imgstadium.jpg" />
@@ -124,7 +124,7 @@ function Infostade(){
                                     </div>
                                 </div>
                             </div>
-                            </>
+                            </div>
                         );
                     }
                     else{
@@ -156,7 +156,7 @@ function Infostade(){
                     } else {
                         if ([5, 8, 11].includes(stadium.idStade)) {
                             return (
-                                <div className="stadegroup" >
+                                <div className="stadegroup" key={index + 20}>
                                     <div className='card1' key={stadium.idStade}>
                                         <div className='imgcard'>
                                             <img src={stadium.image} alt="imgstadium.jpg" />

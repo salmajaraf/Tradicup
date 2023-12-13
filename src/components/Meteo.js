@@ -12,9 +12,9 @@ import { FaRegSnowflake } from "react-icons/fa";
 import { RiMistFill } from "react-icons/ri";
 function Meteo(props) {
     const { ville } = props;
-    const villeAsString = String(ville);
+    /*const villeAsString = String(ville);*/
     const apikey = "99fe5aaa88d1cdeccd365d48f5ec488d";
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${villeAsString}&units=Metric&appid=${apikey}`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${ville}&units=Metric&appid=${apikey}`;
     const [meteo, setMeteo] = useState({});
     const [icone, setIcone] = useState(<FaCloud className="metico" />);
   
