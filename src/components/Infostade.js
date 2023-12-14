@@ -61,7 +61,7 @@ function Infostade(){
     return(
         <div  className="stadecontainer" id="home">
             <div className="titrecont">
-                <h1 className="ticlair1">DISCOVER THE MOROCCAN <br/>STADIUMS</h1>
+                <h1 className="ticlair1">DISCOVER THE MOROCCAN STADIUMS</h1>
             </div>
             {/*pop up */}
             {}

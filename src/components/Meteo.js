@@ -15,18 +15,21 @@ function Meteo(props) {
     /*const villeAsString = String(ville);*/
     const apikey = "fd5b26b2c06c4417c84a45de8fb4e8fb";
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${ville}&units=Metric&appid=${apikey}`;
-    const [meteo, setMeteo] = useState({});
+    const [meteo, setMeteo] = useState({"main":10.3,"weather":"rain"});
     const [icone, setIcone] = useState(<FaCloud className="metico" />);
   
     useEffect(() => {
-      axios
-        .get(url)
-        .then(response => {
-          setMeteo(response.data);
-        })
-        .catch(error => {
-          console.error('Erreur lors de la récupération des données:', error);
-        });
+        const fetchData = async () => {
+          try {
+            const response = await axios.get(url);
+            setMeteo(response.data);
+          } catch (error) {
+            console.error('Erreur lors de la récupération des données:', error);
+          }
+        };
+      
+        fetchData();
+      
         if(meteo.weather && (meteo.weather[0].icon==="01d" || meteo.weather[0].icon==="01n")){
             setIcone(<HiSun className="metico" />)
         }
