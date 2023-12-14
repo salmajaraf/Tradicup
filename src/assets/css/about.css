@@ -16,10 +16,31 @@
 
   .news-section h2{
     margin-left: 190px;
-    margin-top: 40px;
+    margin-top: 25px;
     font-size:xx-large;
     color:#21434C ;
   }
+  .slick-dots {
+    display: flex !important; /* Utilisez !important pour s'assurer que ces styles sont appliqués */
+    margin-left: 250px;
+    align-items: center;
+    margin-top: 18px; /* Ajustez la marge selon vos besoins */
+  }
+  .slick-dots li button {
+    width: 10px; /* Largeur de la boule */
+    height: 10px; /* Hauteur de la boule */
+    border: none;
+    border-radius: 50%;
+    background-color: #999; /* Couleur de fond des boules */
+    cursor: pointer;
+    opacity: 0.7; /* Opacité des boules inactives */
+    transition: opacity 0.3s ease, background-color 0.3s ease;
+  }
+  .slick-dots li.slick-active button {
+    opacity: 1; /* Opacité de la boule active */
+    background-color: #333; /* Couleur de fond de la boule active */
+  }  
+  
   
   .news-item {
     margin-top: 50px;

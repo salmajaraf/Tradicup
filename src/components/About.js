@@ -39,17 +39,17 @@ const About = () => {
             <div className="news-item">
               <img src={news2} alt="News 2" />
               <p>
-                <strong>Spain, Portugal and Morocco to host FIFA World Cup 2030</strong>
+                <strong>Messi leads Men's FIFA the best shortList, Lionesses for Women's Award</strong>
                 <br />
-                <small>4/10/2023 AT 16:21</small>
+                <small>12/01/2023 AT 17:51</small>
               </p>
             </div>
             <div className="news-item">
               <img src={news3} alt="News 3" />
               <p>
-                <strong>CAF: Morocco’s Hosting of FIFA World Cup 2030 Will Contribute to Development of Football in Africa</strong>
+                <strong>DesChamps extends contract as France Manger</strong>
                 <br />
-                <small>5/12/2023 AT 10:16</small>
+                <small>07/01/2023 AT 11:44</small>
               </p>
             </div>
           </Slider>
