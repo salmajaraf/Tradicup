@@ -3,27 +3,33 @@
     font-family: 'Qatar2022 Arabic';
     
     background-color: #CDD1D4;
-    padding:5px 5px;
+    padding:5px 10px;
     position:relative;
   }
   .part1{
     display: flex;
-    justify-content: center;
+    
+    
   }
   .news-section {
+    align-items: center;
     width: 60%; 
+
   }
 
   .news-section h2{
-    margin-left: 200px;
+   padding: 0px;
     margin-top: 25px;
     font-size:39px;
     color:#21434C ;
+    text-align: center;
+    width: 85%;
 
   }
   .slick-dots {
-    display: flex !important; /* Utilisez !important pour s'assurer que ces styles sont appliqués */
+    display: flex !important; 
     margin-left: 290px;
+    width:80%;
     align-items: center;
     margin-top: 18px; /* Ajustez la marge selon vos besoins */
   }
@@ -46,7 +52,7 @@
   
   .news-item {
     margin-top: 30px;
-    margin-left: 90px;
+    margin-left: 80px;
     justify-content: center;
   
   }
@@ -83,8 +89,8 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    width: 100%;
-    margin-right: 10%;
+    width: 70%;
+    
   }
   .countdown{
     text-align: center;
@@ -158,11 +164,11 @@
 
   .part1 {
     flex-direction: column;
+    align-items: center;
   }
   .news-section{
-    width:100% ;
-    text-align: center;
-    
+    width:80% ;
+    align-items: center;
     
     
   }
@@ -172,22 +178,24 @@
     font-size: 30px;
   }
   .slick-dots{
-    margin-left: 45%;
+    margin-left: 120px;
   }
 
   .news-item{
     padding-right: 60px;
+    margin-left: 50px;
+    width: 85%;
   }
 
   .news-item img {
-    width: 80%;
-    max-width: 80%;
+    width: 85%;
+    max-width: 85%;
     
     
   }
 
   .news-item p {
-    width: 80%;
+    width: 85%;
   }
 
   .countdown-section {
