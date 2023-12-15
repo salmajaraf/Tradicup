@@ -1,0 +1,242 @@
+/* about.css */
+.about-container {
+    font-family: 'Qatar2022 Arabic';
+    
+    background-color: #CDD1D4;
+    padding:5px 10px;
+    position:relative;
+  }
+  .part1{
+    display: flex;
+    
+    
+  }
+  .news-section {
+    align-items: center;
+    width: 60%; 
+
+  }
+
+  .news-section h2{
+   padding: 0px;
+    margin-top: 25px;
+    font-size:39px;
+    color:#21434C ;
+    text-align: center;
+    width: 85%;
+
+  }
+  .slick-dots {
+    display: flex !important; 
+    margin-left: 290px;
+    width:80%;
+    align-items: center;
+    margin-top: 18px; /* Ajustez la marge selon vos besoins */
+  }
+  .slick-dots li button {
+    width: 10px; /* Largeur de la boule */
+    height: 10px; /* Hauteur de la boule */
+    border: none;
+    border-radius: 50%;
+    background-color: #999; /* Couleur de fond des boules */
+    cursor: pointer;
+    opacity: 0.7; /* Opacité des boules inactives */
+    transition: opacity 0.3s ease, background-color 0.3s ease;
+  }
+  .slick-dots li.slick-active button {
+    opacity: 1; /* Opacité de la boule active */
+    background-color: #333; /* Couleur de fond de la boule active */
+    
+  }  
+  
+  
+  .news-item {
+    margin-top: 30px;
+    margin-left: 80px;
+    justify-content: center;
+  
+  }
+  
+  .news-item img {
+    border-radius: 10px 10px 0px 0px; /* Coins arrondis */
+    width: 60%;
+    max-width: 60%;
+    height: auto;
+  }
+  .news-item p {
+    background-color: #fff;
+    width: 60%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    line-height: 1.2;
+    border-radius: 0px 0px 10px 10px;
+  }
+  
+  .countdown-section h2 {
+    color: #fff; /* Couleur du texte blanc */
+    text-align: center;
+    background-color: #21434C;
+    width: 100%;
+    border-radius:10px 10px 0px 0px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+  }
+  .countdown-section {
+    margin-top: 160px;
+    height: 10%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    
+  }
+  .countdown{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    padding-top: 30px;
+    border-radius:0px 0px  10px 10px;
+  }
+  .countdown p{
+    font-family:'Graphik Arabic';
+  }
+  .count{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 10%;
+    color: #21434C;
+    font-weight: 200;
+  }
+
+.separator {
+  border-top: 2px solid #21434C ; /* Couleur du séparateur */
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 2px;
+  margin-top: 40px;
+  background-color:#21434C !important;
+}
+.part2{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  max-width:40%
+}
+.logo img {
+  width: 100%; 
+  height:auto;
+  max-width: 100%;
+  margin-bottom: 0px; 
+  margin-left: 0px;
+}
+.description{
+  width:50%;
+  max-width:50%;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+
+  
+}
+.description h2{
+  color:#21434C;
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+.description p {
+  font-size: 14px;
+  line-height:2;
+  width: 80%;
+  font-family:'Graphik Arabic';
+}
+/* Responsive Styles */
+@media screen and (max-width: 767px) {
+  .about-container {
+    padding: 10px;
+  }
+
+  .part1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .news-section{
+    width:80% ;
+    align-items: center;
+    
+    
+  }
+  .news-section h2 {
+    text-align: center;
+    width:auto;
+    font-size: 30px;
+  }
+  .slick-dots{
+    margin-left: 120px;
+  }
+
+  .news-item{
+    padding-right: 60px;
+    margin-left: 50px;
+    width: 85%;
+  }
+
+  .news-item img {
+    width: 85%;
+    max-width: 85%;
+    
+    
+  }
+
+  .news-item p {
+    width: 85%;
+  }
+
+  .countdown-section {
+    margin-top: 40px;
+  }
+
+  .separator {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .part2 {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .logo img {
+    width: 90%; /* Make the logo responsive */
+    margin-bottom: 0px;
+    align-items: center;
+
+  }
+
+  .description {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    max-width: 90%;
+  }
+
+  .description h2 {
+   
+    font-size: 40px;
+  }
+
+  .description p {
+    width: 100%;
+    font-size: 16px;
+    
+  }
+}
+
+
+  
