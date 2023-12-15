@@ -1,28 +1,29 @@
 /* about.css */
 .about-container {
     font-family: 'Qatar2022 Arabic';
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    
     background-color: #CDD1D4;
-    padding: 20px;
+    padding:5px 5px;
     position:relative;
   }
-  
+  .part1{
+    display: flex;
+    justify-content: center;
+  }
   .news-section {
-    width: 60%;
-    position:relative;
+    width: 60%; 
   }
 
   .news-section h2{
-    margin-left: 190px;
+    margin-left: 200px;
     margin-top: 25px;
-    font-size:xx-large;
+    font-size:39px;
     color:#21434C ;
+
   }
   .slick-dots {
     display: flex !important; /* Utilisez !important pour s'assurer que ces styles sont appliqués */
-    margin-left: 250px;
+    margin-left: 290px;
     align-items: center;
     margin-top: 18px; /* Ajustez la marge selon vos besoins */
   }
@@ -39,35 +40,195 @@
   .slick-dots li.slick-active button {
     opacity: 1; /* Opacité de la boule active */
     background-color: #333; /* Couleur de fond de la boule active */
+    
   }  
   
   
   .news-item {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 90px;
-
-    position:relative;
+    justify-content: center;
+  
   }
   
   .news-item img {
     border-radius: 10px 10px 0px 0px; /* Coins arrondis */
-    width: 50%;
-    max-width: 50%;
+    width: 60%;
+    max-width: 60%;
     height: auto;
   }
   .news-item p {
     background-color: #fff;
-    width: 50%;
+    width: 60%;
     padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 10px;
     line-height: 1.2;
-  }
-
-  .countdown-section {
-    width: 30%;
+    border-radius: 0px 0px 10px 10px;
   }
   
   .countdown-section h2 {
     color: #fff; /* Couleur du texte blanc */
+    text-align: center;
+    background-color: #21434C;
+    width: 100%;
+    border-radius:10px 10px 0px 0px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
   }
+  .countdown-section {
+    margin-top: 160px;
+    height: 10%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 10%;
+  }
+  .countdown{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    padding-top: 30px;
+    border-radius:0px 0px  10px 10px;
+  }
+  .countdown p{
+    font-family:'Graphik Arabic';
+  }
+  .count{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 10%;
+    color: #21434C;
+    font-weight: 200;
+  }
+
+.separator {
+  border-top: 2px solid #21434C ; /* Couleur du séparateur */
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 2px;
+  margin-top: 40px;
+  background-color:#21434C !important;
+}
+.part2{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  max-width:40%
+}
+.logo img {
+  width: 100%; 
+  height:auto;
+  max-width: 100%;
+  margin-bottom: 0px; 
+  margin-left: 0px;
+}
+.description{
+  width:50%;
+  max-width:50%;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+
+  
+}
+.description h2{
+  color:#21434C;
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+.description p {
+  font-size: 14px;
+  line-height:2;
+  width: 80%;
+  font-family:'Graphik Arabic';
+}
+/* Responsive Styles */
+@media screen and (max-width: 767px) {
+  .about-container {
+    padding: 10px;
+  }
+
+  .part1 {
+    flex-direction: column;
+  }
+  .news-section{
+    width:100% ;
+    text-align: center;
+    
+    
+    
+  }
+  .news-section h2 {
+    text-align: center;
+    width:auto;
+    font-size: 30px;
+  }
+  .slick-dots{
+    margin-left: 45%;
+  }
+
+  .news-item{
+    padding-right: 60px;
+  }
+
+  .news-item img {
+    width: 80%;
+    max-width: 80%;
+    
+    
+  }
+
+  .news-item p {
+    width: 80%;
+  }
+
+  .countdown-section {
+    margin-top: 40px;
+  }
+
+  .separator {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .part2 {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .logo img {
+    width: 90%; /* Make the logo responsive */
+    margin-bottom: 0px;
+    align-items: center;
+
+  }
+
+  .description {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    max-width: 90%;
+  }
+
+  .description h2 {
+   
+    font-size: 40px;
+  }
+
+  .description p {
+    width: 100%;
+    font-size: 16px;
+    
+  }
+}
+
+
   

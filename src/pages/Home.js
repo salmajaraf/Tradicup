@@ -3,6 +3,7 @@ import Accueil from "../components/Accueil";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import About from "../components/About";
+import Countries from "../components/Countries";
 
 
 
@@ -12,6 +13,7 @@ function Home(){
             <Header/>
             <Accueil/>
             <About/>
+            <Countries/>
             <Contact/>
             <Footer/>
         </div>

@@ -1,0 +1,45 @@
+.image img {
+  max-width: 250px;
+  height: 10rem;
+  padding: 0 15px;
+  object-fit: cover;
+}
+
+.image img:last-of-type {
+  padding-left: 0;
+}
+.Countries{
+  font-family:'Qatar2022 Arabic' ;
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 15px;
+}
+.inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 20rem;
+  background-color: #21434C;
+}
+
+.wrapper {
+  position: absolute;
+  display: flex;
+}
+
+section {
+  margin-top: 20px;
+  display: flex;
+  animation: swipe var(--speed) linear infinite backwards;
+}
+
+@keyframes swipe {
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(-100%);
+  }
+}
