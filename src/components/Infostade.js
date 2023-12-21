@@ -64,7 +64,6 @@ function Infostade(){
                 <h1 className="ticlair1">DISCOVER THE MOROCCAN STADIUMS</h1>
             </div>
             {/*pop up */}
-            {}
             <div className="overlay" id="filtre"></div>
             <div id="stade">
                 <div className="imgstade">
