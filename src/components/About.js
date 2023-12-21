@@ -5,7 +5,7 @@ import Countdown from 'react-countdown';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import '../assets/css/about.css';
-
+import Traitcolor from "./Traitcolor";
 
 import news1 from '../assets/images/news1.png';
 import news2 from '../assets/images/news2.png';
@@ -23,51 +23,60 @@ const About = () => {
       slidesToShow: 1,
       slidesToScroll: 1,
       arrows: false, // Ajout de cette option pour masquer les flèches
+      autoplay:true,
+      autoplaySpeed: 2000
     };
   
     return (
       <div className="about-container">
         <div className='part1'>
           <div className="news-section">
-            <h2>LATEST NEWS</h2>
-            <Slider {...sliderSettings}>
-              <div className="news-item">
-                <img src={news1} alt="News 1" />
-                <p>
-                  <strong>World Cup 2026 to have four-team groups and 24 more games than previous editions</strong>
-                  <br />
-                  <small>14/03/2023 AT 18:33</small>
-                </p>
-              </div>
-              <div className="news-item">
-                <img src={news2} alt="News 2" />
-                <p>
-                  <strong>Messi leads Men's FIFA the best shortList, Lionesses for Women's Award</strong>
-                  <br />
-                  <small>12/01/2023 AT 17:51</small>
-                </p>
-              </div>
-              <div className="news-item">
-                <img src={news3} alt="News 3" />
-                <p>
-                  <strong>DesChamps extends contract as France Manger</strong>
-                  <br />
-                  <small>07/01/2023 AT 11:44</small>
-                </p>
-              </div>
-            </Slider>
+            <div><h2>Latest News</h2></div>
+            <div>
+              
+              <Slider {...sliderSettings} className="slidecont">
+                <div className="news-item">
+                  <img src={news1} alt="News 1" />
+                  <p>
+                    World Cup 2026 to have four-team groups and 24 more games than previous editions
+                    
+                  </p>
+                  <h5>14/03/2023 AT 18:33</h5>
+                </div>
+                <div className="news-item">
+                  <img src={news2} alt="News 2" />
+                  <p>
+                    Messi leads Men's FIFA the best shortList, Lionesses for Women's Award
+                  </p>
+                  <h5>12/01/2023 AT 17:51</h5>
+                </div>
+                <div className="news-item">
+                  <img src={news3} alt="News 3" />
+                  <p>
+                    DesChamps extends contract as France Manger
+                    
+                  </p>
+                  <h5>07/01/2023 AT 11:44</h5>
+                </div>
+              </Slider>
+            </div>
           </div>
           <div className="countdown-section">
-            <h2>World Cup 2030</h2>
-            <div className="countdown">
-              <p>Countdown Till Start</p>
-              <div className='count'>
-                <Countdown  date={worldCupDate} />
+            <div className='changer'>
+              <div className='titrechanger'>
+                <h2>World Cup 2030</h2>
               </div> 
+              <div className="countdown">
+                <p>Countdown Till Start</p>
+                <div className='count'>
+                  <Countdown  date={worldCupDate} />
+                </div> 
+              </div>
             </div>
           </div>
         </div>
-        <div className="separator" ></div>
+        
+        <Traitcolor/>
         <div className='part2' id='about'>
               <div className="logo">
                 <img src={logo} alt="Logo" />
