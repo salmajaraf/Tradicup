@@ -8,6 +8,4 @@ function Traitcolor(){
     );
 }
 
-
-
 export default Traitcolor;
