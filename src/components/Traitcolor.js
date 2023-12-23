@@ -1,4 +1,4 @@
-//import "../assets/css/foods.css";
+import "../assets/css/foods.css";
 
 function Traitcolor(){
     return(
@@ -7,7 +7,5 @@ function Traitcolor(){
         </div>
     );
 }
-
-
 
 export default Traitcolor;

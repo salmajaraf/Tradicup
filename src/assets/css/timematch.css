@@ -1,0 +1,28 @@
+.Match_section {
+    font-size: 23px;
+    font-family: 'Qatar2022 Arabic';
+    background-color: #CDD1D4;  
+    padding-top: 30px;
+}
+.Title_section{
+    display: flex;
+    flex-direction: row;
+}
+.Balle {
+    margin-top: 30px;
+    width:34% ;
+}
+.Title{
+    display: flex;
+    flex-direction: column;
+    color:#21434C ;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+}
+
+.select select{
+    border-radius: 10px;
+    width: 120px;
+}
