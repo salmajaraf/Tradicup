@@ -11,15 +11,16 @@
 .Countries{
   font-family:'Qatar2022 Arabic' ;
   color: white;
-  font-size: 45px;
+  font-size: 39px;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 35px;
+  margin-bottom: 15px;
 }
 .inner {
   position: relative;
   width: 100%;
   overflow: hidden;
-  height: 20rem;
+  height: 350px;
   background-color: #21434C;
 }
 

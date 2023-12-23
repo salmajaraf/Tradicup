@@ -12,10 +12,10 @@ const images = [flag1, flag2, flag3,flag4,flag1,flag2,flag3,flag4].map((image) =
 
 
 
-const Countries = ({ speed = 5000 }) => {
+const Countries = ({ speed = 9000 }) => {
   return (
     <div className="inner">
-      <h2 className="Countries">Countries</h2>
+      <h2 className="Countries">COUNTRIES</h2>
       <div className="wrapper">
         <section style={{ "--speed": `${speed}ms` }}>
           {images.map(({ id, image }) => (
