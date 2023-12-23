@@ -4,6 +4,7 @@ import Places from "../components/Places";
 import Traitcolor from "../components/Traitcolor";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import Countries from "../components/Countries";
 
 function ExploreSpots(){
     return(
@@ -12,6 +13,7 @@ function ExploreSpots(){
             <Places/>
             <Traitcolor/>
             <Foods/>
+            <Countries/>
             <Contact/>
             <Footer/>
         </div>
