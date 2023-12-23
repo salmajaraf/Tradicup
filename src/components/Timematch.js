@@ -1,9 +1,9 @@
 import "../assets/css/timematch.css";
-import { useEffect } from 'react';
-import axios from "axios";
+//import { useEffect } from 'react';
+//import axios from "axios";
 import ball from '../assets/images/ball.png';
 function Timematch(){
-    useEffect(() => {
+    /*useEffect(() => {
         const fetchData = async () => {
           try {
             const response = await axios.get(
@@ -22,7 +22,7 @@ function Timematch(){
         };
     
         fetchData();
-      }, []);
+      }, []);*/
 
 
 
