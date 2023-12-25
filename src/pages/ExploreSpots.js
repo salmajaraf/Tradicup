@@ -1,4 +1,4 @@
-import Foods from "../components/Foods";
+//import Foods from "../components/Foods";
 import Header from "../components/Header";
 import Places from "../components/Places";
 import Traitcolor from "../components/Traitcolor";
@@ -12,7 +12,6 @@ function ExploreSpots(){
             <Header/>
             <Places/>
             <Traitcolor/>
-            <Foods/>
             <Countries/>
             <Contact/>
             <Footer/>

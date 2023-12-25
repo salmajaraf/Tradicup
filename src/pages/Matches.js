@@ -3,7 +3,8 @@ import Timematch from "../components/Timematch";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Countries from "../components/Countries";
-
+import Traitcolor from "../components/Traitcolor";
+import Groups from "../components/Groups";
 
 
 function Matches(){
@@ -11,6 +12,8 @@ function Matches(){
         <div>
             <Header/>
             <Timematch/>
+            <Traitcolor/>
+            <Groups/>
             <Countries/>
             <Contact/>
             <Footer/>

@@ -1,0 +1,91 @@
+/* CSS */
+.TitleG {
+  text-align: center;
+  align-items: center;
+  color: #21434c;
+  font-size: 20px;
+}
+
+.GroupsDiv {
+  background-color: #cdd1d4;
+  font-family: 'Qatar2022 Arabic';
+}
+
+.groups {
+  --groups-per-row: 4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.SingleGrp {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: calc(25% - 20px);
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.SingleGrp h2 {
+  background-color: #21434c;
+  color: white;
+  text-align: center;
+}
+
+.country {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+
+  /* Additional styles to improve spacing */
+  padding: 10px;
+  border: 1px solid #ccc;
+  color: #21434c;
+
+}
+
+.country img {
+  width: 50px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-left: 30px; 
+}
+
+.country p {
+  margin: 0; /* Remove default margin for better alignment */
+}
+
+@media screen and (max-width: 1200px) {
+  .groups {
+    --groups-per-row: 3;
+  }
+
+  .SingleGrp {
+    width: calc(33.33% - 20px);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .groups {
+    --groups-per-row: 2;
+  }
+
+  .SingleGrp {
+    width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .groups {
+    --groups-per-row: 1;
+  }
+
+  .SingleGrp {
+    width: calc(100% - 20px);
+  }
+}
