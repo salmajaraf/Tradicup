@@ -1,5 +1,240 @@
+.foodcontainer .ticlair {
+    font-size: 30px;
+    font-family: 'Qatar2022 Arabic';
+    color: #21434C ;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+
+.foodcontainer {
+    height: auto;
+    background-color: #CDD1D4;
+}
+
+.nonvisible {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.foodcontainer .card1{
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+    background-color: #21434C;
+    margin: 40px;
+}
+
+.foodcontainer .card1 .imgcard img{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    height: 250px;
+}
+.foodcontainer .card1 .cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.foodcontainer .card1 .cont h3 {
+    font-size: 23px;
+    font-family: 'Qatar2022 Arabic';
+    color: #CDD1D4;
+    margin-left: 50px;
+}
+
+.foodcontainer .card1 .cont .infobtn {
+    height: 29px;
+    width: auto;
+    font-family: 'Qatar2022 Arabic';
+    color: #CDD1D4;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.foodgroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+.foodgroup .imgcard{
+    overflow: hidden;
+    position: relative;
+}
+
+.foodgroup .heartfood{
+    color: #ffffff;
+    position: absolute;
+    scale: 2;
+    right: 0;
+    top: 0;
+    margin: 25px;
+    cursor: pointer;
+    z-index: 5 !important;
+}
+
+
+.foodgroup .imgcard::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to right, transparent, #21434C); /* Ajustez ces valeurs selon vos préférences */
+    z-index: 1;
+    border-radius: 0 15px 0 0;
+  }
+  
+.foodgroup .imgcard img {
+  z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:600px) {
     .respotrait{
         height: 50px !important;
     }
+    .foodcontainer .card .cont {
+        height: 60px;
+    }
+    .foodcontainer .card1 .cont {
+        height: 60px;
+    }
+
+    .foodgroup {
+        flex-direction: column;
+         
+     }
+ 
+     .foodcontainer .card1 {
+         width: 300px;
+         height: auto;
+         margin: 25px;
+     }
+     .foodcontainer .card1 .imgcard img{
+         
+         height: 200px;
+     }
+ 
+     .foodcontainer .card1 .cont h3{
+         font-size: 25px;
+         margin-left: 30px;
+     }
+     .foodcontainer .card1 .cont .infobtn{
+         height: 30px;
+         margin-right: 30px;
+     }
+     
+     .foodcontainer .ticlair {
+         font-size: 28px;
+         padding-top: 20px !important;
+ 
+     }
+     #food{
+        width: 350px !important;
+        height: 550px !important;
+    }
+    #food .content .cont1 h3{
+        font-size: 22px !important;
+        
+    }
+}
+
+
+/*POP UP*/
+.overlay2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 67, 76, 0.219);
+    z-index: 9; 
+    display: none;
+}
+#food {
+    position: fixed;
+    z-index: 10;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 550px;
+    width: 400px;
+    display: none;
+}
+
+#food .imgfood img {
+    width: 100%;
+    height: 230px;
+    border-radius: 10px 10px 0 0;
+}
+
+#food .content .cont1 h3{
+    font-size: 30px;
+    font-family: "Qatar2022 Arabic";
+    color: #21434C;
+    margin-left: 60px;
+}
+
+#food .content .cont1 .iconeclosefood{
+    height: 35px;
+    width: auto;
+    color: #21434C;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+#food .content .cont2 p{
+    font-size: 16px;
+    font-family: "Graphik Arabic";
+    color: black;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#food .content .cont2 h4{
+    font-size: 20px;
+    font-family: "Qatar2022 Arabic";
+    color: #21434C;
+    padding-right: 45px;
+    margin-left: 60px;
+    margin-top: 35px;
+}
+#food .content .cont1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    margin-top: 10px;
+}
+
+
+#food .content .cont4 p{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: black;
+    font-weight: 600;
+    margin: 10px 60px 60px 60px;
+    text-align: justify;
 }
