@@ -52,7 +52,7 @@ function Timematch() {
       </div>
       <div className="Matches">
         {filteredMatches.length === 0 ? (
-          <div className="NoMatches">No Matches For Today</div>
+          <div className="NoMatches"><p>No Matches For Today</p></div>
         ) : (
           filteredMatches.map((match) => (
             <div className="SingleMatche" key={match.id}>
@@ -67,10 +67,10 @@ function Timematch() {
                 <div className="time">{match.time}</div>
               </div>
               <div className="team2">
-                <div className="pays2">{match.team2.name}</div>
                 <div className="flag">
                   <img src={match.team2.flag} alt="Flag" />
                 </div>
+                <div className="pays2">{match.team2.name}</div>
               </div>
             </div>
           ))

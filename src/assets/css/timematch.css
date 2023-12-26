@@ -99,10 +99,13 @@
   object-fit: cover;
   border-radius: 5px;
 }
-.NoMatches{
-  font-size: 35px;
-  color:#21434c;
-
+.NoMatches p{
+    font-family: 'Qatar2022 Arabic';
+    color: black;
+    font-size: 25px;
+    margin-bottom: 70px;
+    margin-top: 30px;
+    text-align: center;
 }
 
 /* Media Queries for responsiveness */
@@ -138,14 +141,14 @@
       width: 230px; /* Adjusted for full width */
       font-size: 18px;
       padding-left: 25px;
-      border-radius: 0px 50px 0px 50px
+      border-radius: 0px 50px 0px 50px;
     }
     .team2
      {
       width: 230px; /* Adjusted for full width */
       font-size: 18px;
       padding-right: 25px;
-      border-radius: 0px 50px 0px 50px
+      border-radius: 0px 50px 0px 50px;
     }
     .flag{
         width:40%;
@@ -179,14 +182,16 @@
       width: 140px; /* Adjusted for full width */
       font-size: 14px;
       padding-left: 10px;
-      border-radius: 0px 30px 0px 30px
+      border-radius: 0px 30px 0px 30px;
+      flex-direction: column;
     }
     .team2
      {
       width: 140px; /* Adjusted for full width */
       font-size: 14px;
       padding-left: 12px;
-      border-radius: 0px 30px 0px 30px
+      border-radius: 0px 30px 0px 30px;
+      flex-direction: column;
     }
     .flag{
         width:40%;
