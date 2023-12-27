@@ -1,0 +1,24 @@
+.Talks .title {
+    font-size: 45px;
+    font-family: 'Qatar2022 Arabic';
+    color: #21434C ;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 140px;
+    text-align: center;
+    line-height: 55px;
+}
+
+
+
+.Talks {
+    height: auto;
+    background-color: #CDD1D4;
+}
+
+.Talks p{
+    font-size: 16px;
+    font-family: "Graphik Arabic";
+    color: black;
+    text-align: center;
+}
