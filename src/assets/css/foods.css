@@ -28,6 +28,7 @@
     border-radius: 15px;
     background-color: #21434C;
     margin: 40px;
+    z-index: 100 !important;
 }
 
 .foodcontainer .card1 .imgcard img{
