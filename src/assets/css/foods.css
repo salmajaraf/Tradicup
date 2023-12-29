@@ -95,6 +95,7 @@
     background-image: linear-gradient(rgba(33, 67, 76,0.45),rgba(33, 67, 76,0.45)) !important; 
     z-index: 1;
     border-radius: 15px 15px 0 0 !important;
+    
   }
   
 .foodgroup .imgcard img {
