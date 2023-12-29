@@ -30,6 +30,7 @@
     font-family: 'Qatar2022 Arabic';
     border: none !important;
     outline: none !important;
+    cursor: pointer;
 }
 .input textarea,
 .input input{
