@@ -21,7 +21,7 @@ const CommentList = ({ comments }) => {
             <small>{new Date(comment.timestamp).toLocaleString()}</small>
           </div>
           <div className="comment-text">{comment.text}</div>
-        </div>
+        </div> 
       ))}
     </div>
   );

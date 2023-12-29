@@ -22,7 +22,7 @@ const CommentForm = ({ onAddComment }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className='form25'>
       <h3>Share Here:</h3>
       <div className='input'>
         <div className='Name'>

@@ -21,9 +21,6 @@ const Talks = () => {
       localStorage.setItem('comments', JSON.stringify(updatedComments));
     };
 
-
-
-const Talks = () => {
     
 
     return (
@@ -33,15 +30,13 @@ const Talks = () => {
                 <p>"Engage, Reflect, and share your Moroccan World Cup Experience in our 'Talks ans Share' Hub-Where Opinions Unite".</p>
 
             </div> 
-            <div>
+            <div className='bottomtalks'>
                 <CommentForm onAddComment={handleAddComment} />
                 <CommentList comments={comments} />
             </div>
         </div>
 
 
-            </div>   
-        </div>
 
   );
 };
