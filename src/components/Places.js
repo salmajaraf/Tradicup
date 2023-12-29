@@ -103,9 +103,10 @@ function Places(){
                                     
                                     <div className="etoile">
                                         <h3>{place.city}</h3>
-                                        <h4>{place.rating}</h4>
+                                        
                                         <div className="nbetoile">
-                                            {stars}
+                                            <div><h4>{place.rating}</h4></div>
+                                            <div>{stars}</div>
                                         </div>
                         
                                     </div>
