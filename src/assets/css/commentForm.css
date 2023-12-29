@@ -28,7 +28,8 @@
     color: #21434C ;
     font-size: 14px;
     font-family: 'Qatar2022 Arabic';
-    border: 0cap;
+    border: none !important;
+    outline: none !important;
 }
 .input textarea,
 .input input{
