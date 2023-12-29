@@ -3,10 +3,9 @@ import React, { useState, useEffect } from 'react';
 import CommentForm from './commentForm';
 import CommentList from './CommentList';
 
-
-const Talks = () => {
+const TalksDelete = () => {
     const [comments, setComments] = useState([]);
-
+  
     useEffect(() => {
       // Load comments from local storage on component mount
       const storedComments = JSON.parse(localStorage.getItem('comments')) || [];
@@ -20,29 +19,30 @@ const Talks = () => {
       // Save comments to local storage whenever they change
       localStorage.setItem('comments', JSON.stringify(updatedComments));
     };
-
-
-
-const Talks = () => {
-    
-
+  
+    const handleClearComments = () => {
+      // Clear comments from local storage and state
+      localStorage.removeItem('comments');
+      setComments([]);
+    };
+  
     return (
-        <div className="Talks" id="home">
-            <div className="headTalks">
-                <h1 className="title">Discover Morocco: World Cup 2030</h1>
-                <p>"Engage, Reflect, and share your Moroccan World Cup Experience in our 'Talks ans Share' Hub-Where Opinions Unite".</p>
-
-            </div> 
-            <div>
-                <CommentForm onAddComment={handleAddComment} />
-                <CommentList comments={comments} />
-            </div>
+      <div className="Talks" id="home">
+        <div className="headTalks">
+          <h1 className="title">TALKS & SHARE</h1>
+          <p>"Engage, Reflect, and share your Moroccan World Cup Experience in our 'Talks ans Share'<br/> Hub-Where Opinions Unite".</p>
         </div>
-
-
-            </div>   
+        <div>
+          <div className="Share here">
+            <h3>Share Here: </h3>
+          </div>
+          <CommentForm onAddComment={handleAddComment} />
+          <button onClick={handleClearComments}>Clear Comments</button>
+          <CommentList comments={comments} />
         </div>
-
-  );
-};
-export default Talks;
+      </div>
+    );
+  };
+  
+  export default TalksDelete;
+  

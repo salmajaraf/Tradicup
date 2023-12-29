@@ -1,0 +1,64 @@
+/* commentList.css */
+
+.comment-list-container {
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  
+  .comment-list-container button {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #21434C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .comment-list-item {
+    border-bottom: 2px solid #21434C;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .comment-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  
+  .comment-details strong {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .comment-text {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .comment-list-container {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    .comment-list-item {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  
+    .comment-details strong {
+      font-size: 18px;
+    }
+  
+    .comment-text {
+      font-size: 16px;
+    }
+  }
+  
